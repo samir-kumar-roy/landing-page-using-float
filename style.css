@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+margin: 0;
+padding: 0;
+
+font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    max-width: 78%;
+    margin: auto;
+}
+p{
+    font-size: 16px;
+    color: #000000;
+}
+h1,h2, header a{
+    color: #385F96;
+}
+.btn{
+    background-color: #385F96;
+    color: #fff;
+    font-size: 16px;
+
+}
+header{
+    overflow: hidden;
+}
+.logo{
+    float: left ;
+    font-size: 48px;
+}
+.logo h1{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.main-nav{
+    float: right;
+}
+.main-nav ul{
+    margin-top: 60px;
+}
+.main-nav ul li{
+    display: inline-block;
+    margin: 0 20px;
+
+}
+.main-nav ul li a{
+    font-size: 20px;
+    padding: 2px 7px;
+}
+.hero{
+    overflow: hidden;
+}
+.hero .text{
+    float: left;
+    width: 49%;
+    clear: both;
+    padding: 50px 0 50px 0;
+}
+.hero .text h1{
+    font-weight: 700;
+    font-size: 48px;
+    width: 518px;
+    position: relative;
+}
+.hero .text h1::before{
+    position: absolute;
+    z-index: -1;
+    top: -78px;
+    left: -91px;
+    content: "";
+    height: 186px;
+    width: 180px;
+    background-image: url("images/bubble.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hero .text p{
+    width: 493px;
+}
+.hero .hero-image{
+    float: right;
+    width: 49%;
+}
+.btn{
+    border: 1px solid #385F96;
+    display: inline-block;
+    padding: 6px 15px;
+    border-radius: 20px;
+    color: #fff;
+    text-align: center;
+    transition: 0.5s;
+}
+.btn:hover{
+    outline: 2px solid #44D1DA;
+}
+.hero .hero-image img{
+    width: 400px;
+    height: 434px;
+    margin: auto;
+}
+.team{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+.team .image{
+    width: 49%;
+    float: left;
+    clear: both;
+}
+.team .text{
+    width: 49%;
+    float: right;
+    padding: 50px 0 50px 0;
+}
+.team .text h2{
+    width: 513px;
+    position: relative;
+    font-size: 35px;
+}
+.team .text h2::before{
+    width: 513px;
+    font-size: 35px;
+    position: absolute;
+    top: -3px;
+    left: 0;
+    content: "";
+    height: 5px;
+    width: 80px;
+    background-color: #6DDBE1;
+}
+.team .text p{
+    width: 493px;
+}
+.team .image img{
+    width: 400px;
+    height: 434px;
+    margin: auto;
+}
+.project{
+    background-color: #6DDBE1;
+    padding-top: 50px;
+    overflow: hidden;
+}
+/* .project::before{
+    content: "";
+    top: 0;
+    left: 0;
+    background-color: #6DDBE1;
+    height: 100%;
+    width: 100%; */
+.project .text{
+    width: 49%;
+    float: left;
+    clear: both;
+    position: relative;
+}
+.project .text h2{
+    width: 466px;
+}
+.project .image{
+    float: right;
+    width: 49%;
+    
+}
+.project .text h2{
+    font-size: 35px;
+}
+.project .text h2::before{
+    position: absolute;
+    /* z-index: -1; */
+    top: -55px;
+    left: -116px;
+    content: "";
+    height: 186px;
+    width: 179px;
+    background-image: url("images/small-bubble.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}  
+.credit{
+    background-color: #385F96;
+}
+.credit p{
+    color: #fff;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding: 15px 0;
+}
+.credit p span{
+    color: red;
+    font-size: 22px;
+}
